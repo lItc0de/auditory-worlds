@@ -39,7 +39,7 @@ const Layout: React.FC<Props> = ({ children, pageContext }) => {
 
       <footer className={cx('footer')}>
         <div className={cx('footerContainer')}>
-          2022&nbsp;•&nbsp;Basti,&nbsp;Milli,&nbsp;Aron
+          2022&nbsp;•&nbsp;Basti,&nbsp;Emma,&nbsp;Su
         </div>
       </footer>
     </>

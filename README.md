@@ -1,10 +1,10 @@
-# Welcome to the journal for our study class "Raum als Interface"
+# Welcome to the journal for our study class "Auditory Worlds"
 
 ## How to setup
 1. Clone the repo to your computer
 ```sh
 cd <folder-to-install>
-git clone git@github.com:lItc0de/journal-raum-als-interface.git
+git clone git@github.com:lItc0de/auditory-worlds.git
 ```
 2. Install npm on your system
 For mac:
@@ -41,4 +41,4 @@ git push
 The website will then automatically build and deploy
 
 
-This project is done by Basti, Milli and Aron
+This project is done by Basti, Emma and Su

@@ -19,10 +19,7 @@ const Index: React.FC<Props> = ({
   pageContext,
 }) => (
   <>
-    <h1 className={cx('pageTitle')}>
-      Raum als Interface -{' '}
-      {pageContext.page === 'project1' ? `Project\u00A01` : `Project\u00A02`}
-    </h1>
+    <h1 className={cx('pageTitle')}>Auditory Worlds</h1>
     {allMarkdownRemark.nodes.map(({ frontmatter, html }: any) => (
       <div className={cx('post')} key={frontmatter.slug}>
         <div className={cx('titleContainer')}>
