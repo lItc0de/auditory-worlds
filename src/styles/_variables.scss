@@ -1,6 +1,7 @@
 // Color definitions
 $dark: rgb(33, 26, 29);
-$dark-1: rgba(255, 255, 255, 0.3);
+$dark-1: rgba(33, 26, 29, 0.9);
+
 
 $light: rgba(255, 255, 255, 1);
 $light-muted: rgba(255, 255, 255, 0.5);
@@ -10,13 +11,13 @@ $primary: rgba(255, 40, 130, 1);
 
 // Color usement
 $heading: $dark;
-$text: $dark;
-$text-muted: $dark;
+$text: $light;
+$text-muted: $light-muted;
 $page: $dark;
 $post: $dark-1;
 
 // Fonts
-$font-weight: 400;
+$font-weight: 350;
 $font-weight-fallback: 400;
 
 // Sizes

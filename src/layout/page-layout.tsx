@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import Sidebar from './sidebar';
+// import Sidebar from './sidebar';
 import BackgroundImage from './background-image';
 
 import classNames from 'classnames/bind';
@@ -29,7 +29,7 @@ const Layout: React.FC<Props> = ({ children, pageContext }) => {
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
         />
       </Helmet>
-      <Sidebar pageContext={pageContext} />
+      {/* <Sidebar pageContext={pageContext} /> */}
 
       <BackgroundImage />
 

@@ -13,7 +13,7 @@ const BackgroundImage: React.FC = () => {
         className={cx('backgroundImage')}
         layout="fullWidth"
         alt=""
-        src="../images/background.png"
+        src="../images/background.jpg"
         formats={['auto', 'webp', 'avif']}
       />
     </div>
