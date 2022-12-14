@@ -56,6 +56,6 @@ export const pageQuery = graphql`
   }
 `;
 
-export const Head: HeadFC = () => <title>Journal - Raum als Interface</title>;
+export const Head: HeadFC = () => <title>Journal - Auditory Worlds</title>;
 
 export default Index;
